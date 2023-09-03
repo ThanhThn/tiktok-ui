@@ -1,5 +1,0 @@
-function GlobalStyles(){
-    return ()
-}
-
-ex
