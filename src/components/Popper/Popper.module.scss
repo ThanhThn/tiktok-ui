@@ -1,0 +1,19 @@
+.wrapper::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background: rgb(241 241 242);
+  border-radius: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 /12%) 0 2px 12px;
+  border-radius: 8px;
+  max-height: min((100vh - 96px) - 60px, 734px);
+  padding-top: 8px;
+  overflow: auto;
+}
